@@ -52,7 +52,7 @@ module.exports = createCoreController('api::region.region', {
       })
 
       if (found) {
-        const update = await strapi.db.query('api::region.region').updateWithRelations(
+        const update = await strapi.service('api::region.region').updateWithRelations(
           regionBody
         )
         if (update) {

@@ -51,7 +51,7 @@ module.exports = createCoreController('api::product.product', {
       })
 
       if (found) {
-        const update = await strapi.db.query('api::product.product').updateWithRelations(
+        const update = await strapi.service('api::product.product').updateWithRelations(
           productBody
         )
         if (update) {

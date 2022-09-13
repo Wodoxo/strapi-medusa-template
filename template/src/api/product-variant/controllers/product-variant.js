@@ -81,7 +81,7 @@ module.exports = createCoreController('api::product-variant.product-variant', {
       })
 
       if (found) {
-        const update = await strapi.db.query('api::product-variant.product-variant').updateWithRelations(productVariantBody)
+        const update = await strapi.service('api::product-variant.product-variant').updateWithRelations(productVariantBody)
         if (update) {
           return ctx.body = { id: update }
         } else {
