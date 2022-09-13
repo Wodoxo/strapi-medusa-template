@@ -1,5 +1,3 @@
 # strapi-medusa-template
 
-for Strapi v4
-
-npx create-strapi-app strapi-medusa --template https://github.com/Kyle772/strapi-medusa-template.git
+Check out documentation [here](https://docs.medusajs.com/add-plugins/strapi).
