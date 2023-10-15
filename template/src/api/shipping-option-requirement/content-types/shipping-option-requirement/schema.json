@@ -20,17 +20,16 @@
     },
     "requirement_type": {
       "type": "enumeration",
-      "enum": [
-        "min_subtotal",
-        "max_subtotal"
-      ]
+      "enum": ["min_subtotal", "max_subtotal"]
     },
     "amount": {
       "type": "decimal"
     },
     "shipping_option": {
-      "via": "shipping_option_requirements",
-      "model": "shipping-option"
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::shipping-option.shipping-option",
+      "inversedBy": "shipping_option_requirements"
     }
   }
 }

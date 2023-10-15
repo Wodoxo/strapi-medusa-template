@@ -28,8 +28,10 @@
       "collection": "region"
     },
     "shipping_options": {
-      "via": "fulfillment_provider",
-      "collection": "shipping-option"
+      "relation": "oneToMany",
+      "targetAttribute": "fulfillment_provider",
+      "target": "api::shipping-option.shipping-option",
+      "type": "relation"
     }
   }
 }

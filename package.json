@@ -4,13 +4,13 @@
   "description": "Check out documentation [here](https://docs.medusajs.com/add-plugins/strapi).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shahednasser/strapi-medusa-template.git"
+    "url": "git+https://github.com/Wodoxo/strapi-medusa-template.git"
   },
   "keywords": [],
-  "author": "Shahed Nasser",
+  "author": "Wodoxo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shahednasser/strapi-medusa-template/issues"
+    "url": "https://github.com/Wodoxo/strapi-medusa-template/issues"
   },
-  "homepage": "https://github.com/shahednasser/strapi-medusa-template#readme"
+  "homepage": "https://github.com/Wodoxo/strapi-medusa-template#readme"
 }
